@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GDXObserver"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Light-weight notifications management simplifying library."
   s.homepage         = "https://github.com/GDXRepo/GDXObserver"
   s.license          = { :type => "Apache", :file => "LICENSE" }
