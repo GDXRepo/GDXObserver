@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/GDXRepo/GDXObserver.git", :tag => s.version.to_s }
   s.social_media_url = 'http://deadlineru.livejournal.com'
 
-  s.platform     = :ios, '4.0'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
