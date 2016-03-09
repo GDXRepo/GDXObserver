@@ -206,6 +206,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 #define NFDECLARE(name)    static NSString *const kNotification##name = (@#name);
 #define NFDECLAREKEY(name) static NSString *const kNotificationKey##name = (@#name);
 
@@ -218,3 +220,5 @@
 - (void)notify:(NSString *)name userInfo:(NSDictionary *)info;
 
 @end
+
+NS_ASSUME_NONNULL_END
